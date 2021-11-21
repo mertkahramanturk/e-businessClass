@@ -35,75 +35,40 @@ var questions = [
       answer: "B"
     },
     {
-      question: "Which institutions are responsible for the establishment and development of the e-government portal?",
+      question: "With what kind of belief was the digital transformation office established? ",
       
         
-      a: "TÜBİTAK",
-      b: "Türksat&KAYSİS",
-      c: "ASELSAN",
+      a: "to keep up with the developments abroad.",
+      b: "Believing that it will be possible with an agile governance approach that interprets the time brings and takes quick decisions and implements them.",
+      c: "Digital transformation offices were quickly established in order to meet the needs of the country and to make moves towards it.",
       answer: "B"
     },
     {
-      question: "Which institutions are responsible for the establishment and development of the e-government portal?",
+      question: "How many strategic priorities have been identified in national AI??",
       
         
-      a: "TÜBİTAK",
-      b: "Türksat&KAYSİS",
-      c: "ASELSAN",
-      answer: "B"
+      a: "6",
+      b: "15",
+      c: "60",
+      answer: "A"
     },
     {
-      question: "????SO this is a multidimensional array with 4 inner array elements with 5 elements inside them this is a multidimensional array with 4 inner array elements with 5 elements inside themRU???",
-      
-        
-      a: "False",
-      b: "True",
-      c: "False",
-      answer: "B"
-    },
-    {
-      question: "????SO this is a multidimensional array with 4 inner array elements with 5 elements inside them this is a multidimensional array with 4 inner array elements with 5 elements inside themRU???",
-      
-        
-      a: "False",
-      b: "True",
-      c: "False",
-      answer: "B"
-    },
-    {
-      question: "????SO this is a multidimensional array with 4 inner array elements with 5 elements inside them this is a multidimensional array with 4 inner array elements with 5 elements inside themRU???",
-      
-        
-      a: "False",
-      b: "True",
-      c: "False",
-      answer: "B"
-    },
-    {
-      question: "????SO this is a multidimensional array with 4 inner array elements with 5 elements inside them this is a multidimensional array with 4 inner array elements with 5 elements inside themRU???",
-      
-        
-      a: "False",
-      b: "True",
-      c: "False",
-      answer: "B"
-    },
-    {
-      question: "????SO this is a multidimensional array with 4 inner array elements with 5 elements inside them this is a multidimensional array with 4 inner array elements with 5 elements inside themRU???",
-      
-        
-      a: "False",
-      b: "True",
-      c: "False",
-      answer: "B"
-    },
-  {
-      question: "What is 8 x 12?",
-      a: "88",
-      b: "112",
-      c: "96",
+      question: "What is the domain of the e-government portal in America?",
+
+      a: "www.e-usa.com",
+      b: "www.usago.com",
+      c: "www.firsgov.com",
       answer: "C"
-    }
+    },
+    {
+    question: "Which prime minister enacted the e-government law in the USA?",
+
+    a: "George W. Bush ",
+    b: "Barack Obama",
+    c: "Donald Trump",
+
+    answer: "A"
+  },
   ];
 // this get function is short for the getElementById function	
 function get(x){
