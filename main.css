@@ -16,6 +16,12 @@ a{
 html{
     font-family: "Open Sans", sans-serif;
 }
+
+@media (max-width: 768px){
+    #logo_ybu{
+        max-width: 50%;
+    }
+}
 #test {
     display: flex;
     flex-direction: column;
