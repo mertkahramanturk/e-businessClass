@@ -155,10 +155,10 @@ function checkAnswer(){
   if(choice == questions[pos].answer){
     //each time there is a correct answer this value increases
     correct++;
-    document.getElementById("result").innerHTML = ("Cevabınız: " + "DOĞRU")
+    document.getElementById("result").innerHTML = ("Answer: " + "TRUE")
   }
   else{
-    document.getElementById("result").innerHTML = ("Cevabınız:" + " YANLIŞ")
+    document.getElementById("result").innerHTML = ("Answer:" + " FALSE")
 
   }
   // changes position of which character user is on
