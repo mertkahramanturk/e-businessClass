@@ -3,6 +3,13 @@ var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correc
 // this is a multidimensional array with 4 inner array elements with 5 elements inside them
 var questions = [
   {
+    question: "How many main groups does the e-Government target cover?",
+    a: "5",
+    b: "25",
+    c: "4",
+    answer: "C"
+  },
+  {
       question: "Which of the following is not a features of E-Governance?",
       
         
