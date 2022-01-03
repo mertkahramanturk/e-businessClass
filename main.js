@@ -1,13 +1,18 @@
 // pos is position of where the user in the test or which question they're up to
-var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correct = 0;
+var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correct = 0,x;
+
 // this is a multidimensional array with 4 inner array elements with 5 elements inside them
 var questions = [
+
+  
   {
     question: "What are the three critical transformation areas of e-Government?",
     a: "external-internal-relational",
     b: "g2c-g2b-g2g",
     c: "e-govermant,e-participation,e-governance",
     answer: "A"
+    
+    
   },
   {
     question: "How many main groups does the e-Government target cover?",
@@ -137,7 +142,7 @@ function checkAnswer(){
     document.getElementById("result").innerHTML = ("Answer: " + "TRUE")
   }
   else{
-    document.getElementById("result").innerHTML = ("Answer:" + " FALSE")
+    document.getElementById("result").innerHTML = ("Answer:" + " FALSE"  )
 
   }
   // changes position of which character user is on
@@ -147,3 +152,6 @@ function checkAnswer(){
 }
 // Add event listener to call renderQuestion on page load event
 window.addEventListener("load", renderQuestion);
+
+
+
